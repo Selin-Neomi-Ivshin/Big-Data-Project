@@ -60,7 +60,11 @@ The development environment is Eclipse IDE with Apache Tomcat as the application
     - Retrieves the top `N` media items from the database.
 
 ---
-
+## Usage:
+- **Registration**: Add new users and authenticate them using the `RegistrationController`.
+- **Media Items**: Populate and retrieve media items using `ItemsController`.
+- **History Management**: Track and query user interaction history with the `HistoryController`.
+---
 ## Setup Instructions:
 
 ### Prerequisites
@@ -72,13 +76,7 @@ The development environment is Eclipse IDE with Apache Tomcat as the application
 
 3. **MongoDB Server**  
    Set up MongoDB locally or ensure access to a running MongoDB server.
-
 ---
 
-## Usage:
-- **Registration**: Add new users and authenticate them using the `RegistrationController`.
-- **Media Items**: Populate and retrieve media items using `ItemsController`.
-- **History Management**: Track and query user interaction history with the `HistoryController`.
 
----
 
